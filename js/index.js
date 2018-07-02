@@ -13,7 +13,7 @@ function solveQuadr(a,b,c) {
        x2 = (-b - Math.sqrt(d)) / (2*a);
     return 'x1 =' + x1 + ', x2 = ' + x2;
     } else if (d == 0) {
-        x1 = (-b) / (2*a);
+        x1 = -b / (2*a);
         return 'x1 =' + x1;
     } 
     else if (d < 0) {
